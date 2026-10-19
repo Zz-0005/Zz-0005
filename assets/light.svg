@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" role="img" aria-label="Zz-0005 — built one commit at a time">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#F7F8FA"/>
+      <stop offset="1" stop-color="#EEF1F5"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B0D11"/>
+      <stop offset="1" stop-color="#33404F"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0FB984"/>
+      <stop offset="1" stop-color="#1A8FC4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.2" r="0.55">
+      <stop offset="0" stop-color="#0FB984" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0FB984" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 0H40M0 0V40" stroke="#0B0D11" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="300" fill="url(#bg)"/>
+  <rect width="1280" height="300" fill="url(#grid)"/>
+  <rect width="1280" height="300" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1280" height="4" fill="url(#mint)"/>
+
+  <text x="1075" y="268" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif"
+        font-size="260" font-weight="900" fill="#0B0D11" fill-opacity="0.045">Z</text>
+
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <text x="72" y="106" fill="#68727F" font-size="13" font-weight="600" letter-spacing="4.6">PERSONAL PROFILE · EST. 2026</text>
+    <text x="68" y="188" fill="url(#name)" font-size="72" font-weight="800" letter-spacing="-2">Zz-0005</text>
+    <text x="72" y="232" fill="#46505C" font-size="21" font-weight="400">Built one commit at a time.</text>
+    <text x="72" y="262" fill="#77818E" font-size="16" font-weight="400">一点一点，把它填满</text>
+  </g>
+</svg>
